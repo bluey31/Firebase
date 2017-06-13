@@ -93,7 +93,7 @@
 				TargetAttributes = {
 					20A205711EEFDB62006E3E06 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = ZY98XQ8CHT;
+						DevelopmentTeam = V5YSHRDD9B;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -250,7 +250,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = ZY98XQ8CHT;
+				DEVELOPMENT_TEAM = V5YSHRDD9B;
 				INFOPLIST_FILE = Firebase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -267,7 +267,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = ZY98XQ8CHT;
+				DEVELOPMENT_TEAM = V5YSHRDD9B;
 				INFOPLIST_FILE = Firebase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -297,6 +297,7 @@
 				20A205831EEFDB62006E3E06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
