@@ -137,10 +137,26 @@
                                                 <action selector="backButtonPressed:" target="XfG-lQ-9wD" id="hBc-24-HQV"/>
                                             </connections>
                                         </button>
+                                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cDh-oB-JoU">
+                                            <rect key="frame" x="97" y="11" width="69" height="24"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="I0a-VS-bQO"/>
+                                                <constraint firstAttribute="width" constant="69" id="wjX-C2-ASe"/>
+                                            </constraints>
+                                            <buttonCell key="cell" type="roundTextured" title="Refresh" bezelStyle="texturedRounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zQq-zc-R2I">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="refreshPressed:" target="XfG-lQ-9wD" id="Df7-8l-LpB"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="5Fk-DI-I9o" firstAttribute="leading" secondItem="IiT-1T-Kbg" secondAttribute="leading" constant="20" id="5Gg-99-Epa"/>
                                         <constraint firstItem="5Fk-DI-I9o" firstAttribute="top" secondItem="IiT-1T-Kbg" secondAttribute="top" constant="14" id="J7n-Jx-CPT"/>
+                                        <constraint firstItem="cDh-oB-JoU" firstAttribute="top" secondItem="IiT-1T-Kbg" secondAttribute="top" constant="14" id="THM-E6-viK"/>
+                                        <constraint firstItem="cDh-oB-JoU" firstAttribute="leading" secondItem="5Fk-DI-I9o" secondAttribute="trailing" constant="8" id="Zre-rD-6q3"/>
                                     </constraints>
                                 </view>
                                 <constraints>

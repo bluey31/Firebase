@@ -49,5 +49,9 @@ class ViewController: NSViewController, WKNavigationDelegate{
     @IBAction func backButtonPressed(_ sender: Any) {
         webView.goBack()
     }
+    
+    @IBAction func refreshPressed(_ sender: Any) {
+        webView.reload()
+    }
 }
 
