@@ -9,11 +9,12 @@
 import Cocoa
 import WebKit
 
-class ViewController: NSViewController, WKNavigationDelegate{
+class ViewController: NSViewController, WKNavigationDelegate, WKUIDelegate{
     
     // MARK; Attributes
     
-    @IBOutlet weak var webView: WKWebView!
+    var webView: WKWebView!
+    @IBOutlet var mainView: NSView!
     @IBOutlet weak var backButton: NSButton!
     @IBOutlet weak var headerBox: NSBox!
     
@@ -30,11 +31,12 @@ class ViewController: NSViewController, WKNavigationDelegate{
     }
     
     func setUpView(){
-        let configuration = WKWebViewConfiguration()
-        let webView = WKWebView(frame: .zero, configuration: configuration)
+        let webConfiguration = WKWebViewConfiguration()
+        webView = WKWebView(frame: .zero, configuration: webConfiguration)
+        webView.uiDelegate = self
         webView.translatesAutoresizingMaskIntoConstraints = false
         webView.navigationDelegate = self
-        view.addSubview(webView)
+        mainView = webView
     }
     
     // MARK: Navigation
